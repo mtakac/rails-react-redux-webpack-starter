@@ -2,7 +2,7 @@
 
 === Setup
 
-* `bundle install`
+`bundle install`
 * `(sudo) npm install`
 
 === Development
