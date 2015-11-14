@@ -1,28 +1,22 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Setup
 
-Things you may want to cover:
+* `bundle install`
+* `(sudo) npm install`
 
-* Ruby version
+=== Development
 
-* System dependencies
+* `foreman start -f Procfile.dev`
 
-* Configuration
+This will start rails server, webpack development server and karma
+test runner. JS and JSX files in `./client/src` directory will be
+watched and re-bundled after every change. Webpack development server
+is also set to live reload the page, run ES lint and tests.
 
-* Database creation
+=== NPM tasks
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* `npm start`
+* `npm test`
+* `npm bundle`
+* `npm run lint`
