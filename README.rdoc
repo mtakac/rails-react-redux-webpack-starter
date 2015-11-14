@@ -2,7 +2,7 @@
 
 === Setup
 
-`bundle install`
+* <tt>bundle install</tt>
 * `(sudo) npm install`
 
 === Development
