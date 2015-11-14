@@ -10,9 +10,9 @@
 * <tt>$: foreman start -f Procfile.dev</tt>
 
 This will start rails server, webpack development server and karma
-test runner. JS and JSX files in `./client/src` directory will be
-watched and re-bundled after every change. Webpack development server
-is also set to live reload the page, run ES lint and tests.
+test runner. JS and JSX files in <tt>./client/src</tt> directory will be watched and re-bundled after every change. Webpack
+development server is also set to live reload the page, run ES lint
+and tests.
 
 === NPM tasks
 
