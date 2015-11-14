@@ -2,12 +2,12 @@
 
 === Setup
 
-* <tt>bundle install</tt>
-* <tt>(sudo) npm install</tt>
+* <tt>$: bundle install</tt>
+* <tt>$: (sudo) npm install</tt>
 
 === Development
 
-* <tt>foreman start -f Procfile.dev</tt>
+* <tt>$: foreman start -f Procfile.dev</tt>
 
 This will start rails server, webpack development server and karma
 test runner. JS and JSX files in `./client/src` directory will be
@@ -16,7 +16,7 @@ is also set to live reload the page, run ES lint and tests.
 
 === NPM tasks
 
-* <tt>npm start</tt>
-* <tt>npm test</tt>
-* <tt>npm bundle</tt>
-* <tt>npm run lint</tt>
+* <tt>$: npm start</tt>
+* <tt>$: npm test</tt>
+* <tt>$: npm bundle</tt>
+* <tt>$: npm run lint</tt>
