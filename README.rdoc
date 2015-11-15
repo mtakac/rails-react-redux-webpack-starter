@@ -15,6 +15,8 @@ test runner. JS and JSX files in <tt>./client/src</tt> directory will be watched
 development server is also set to live reload the page, run ES lint
 and tests.
 
+* open <tt>http://localhost:3000</tt>
+
 === NPM tasks
 
 * <tt>$: npm start</tt>
