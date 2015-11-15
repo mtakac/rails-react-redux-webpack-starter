@@ -4,6 +4,7 @@
 
 * <tt>$: bundle install</tt>
 * <tt>$: (sudo) npm install</tt>
+* <tt>$: gem install foreman</tt>
 
 === Development
 
